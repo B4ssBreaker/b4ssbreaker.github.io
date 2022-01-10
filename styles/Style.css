@@ -1,0 +1,39 @@
+html {
+    font-size: 15px; /* to jest komentarz dla mnie, css to zignoruje  */
+    font-family: font-family: 'Be Vietnam Pro', sans-serif; /* mozesz uzywac ** jako takich opisów dla siebie, ale pamietaj o slashu */
+    background-color: #330059;
+}
+
+h1 {
+    Margin: 0;
+    padding: 20px 0;
+    color: #f96473;
+    text-shadow: 3px 3px 1px black; /* cien textu; 3px przesuniecie w poziomie; 3px przesuniecie w pionie; 1px rozmycie cienia */
+    font-size: 55px;
+    text-align: center; /* centrowanie textu */
+}
+
+a, a href {
+    font-size: 55px;
+    margin: 0 auto;
+}
+
+p, li {
+    font-size: 20px; /* wielkość czcionki */
+    line-height: 2; /* wielkość punktow w lini */
+    letter-spacing: 1px; /* odstep liter od siebie */
+}
+
+body {
+    width: 800px; /* szerokosc "ciała - body" */
+    background-color: lavender;
+    border: 5px solid black; /* ramka 5px - grubosc ramki + potem kolor" */
+    margin: 0 auto; /* margines: 0 - z góry i dołu oznacza zerowy margines; auto oznacza po równo dla lewej i prawej strony */
+    padding: 0 20px 20px 20px; /* padding to obszar, na którym jest treść, 0 - od góry; 20px od prawej; 20px od dołu; 20px od lewej */
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 600px;
+}
